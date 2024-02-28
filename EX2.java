@@ -2,6 +2,7 @@
 
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.lang.Math;
 
 public class EX2 {
   
@@ -38,7 +39,7 @@ public class EX2 {
    int i = 2;
    if (n != 1){
       boolean primo = true; 
-      while (i <= n/2 && primo){
+      while (i <= Math.sqrt(n) && primo){
          if (n % i == 0)
             primo = false;
          i++;
