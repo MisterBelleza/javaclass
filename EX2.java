@@ -42,7 +42,7 @@ public class EX2 {
    while (i <= Math.sqrt(n) && primo){
       if (n % i == 0)
          primo = false;
-         i++;
+      i++;
       }
    if(primo)
      return true;
