@@ -1,6 +1,7 @@
 /* ILP506 – Turma Manhã – Nome: Lucas Belleza Spina */
 
 import java.util.Scanner;
+import java.lang.Math;
 
 public class EX1 {
   
@@ -16,7 +17,7 @@ public class EX1 {
     
     if (n != 1){
        boolean primo = true; 
-       while (i <= n/2 && primo){
+       while (i <= Math.sqrt(n) && primo){
          if (n % i == 0)
             primo = false;
          i++;
