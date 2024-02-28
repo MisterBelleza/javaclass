@@ -37,20 +37,16 @@ public class EX2 {
   
   private static boolean ePrimo(int n) {
    int i = 2;
-   if (n != 1){
-      boolean primo = true; 
-      while (i <= Math.sqrt(n) && primo){
-         if (n % i == 0)
-            primo = false;
+    
+   boolean primo = true; 
+   while (i <= Math.sqrt(n) && primo){
+      if (n % i == 0)
+         primo = false;
          i++;
-       } 
-       
-       if(primo)
-         return true;
-       else
-         return false;
-    }
-    else
-      return false;
+      }
+   if(primo)
+     return true;
+   else
+     return false;
    }
-  }  
+ }
