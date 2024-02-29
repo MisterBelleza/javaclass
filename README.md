@@ -14,5 +14,21 @@
 ### Temperaturas
 ![image](https://github.com/MisterBelleza/javaclass/assets/56280804/4ddd28dc-140b-49b6-9ef2-5fc9ad87a617)
 
-## Resoluções
+## Notas relevantes
 
+# Ex1 e Ex2 
+Para calcular os primos uso o método da "Divisão por tentativa", onde a partir de um laço iniciando em 2 até a raiz quadrada do número a ser classificado, realizo comparações de resto da divisão com o número 0. Se a comparação for veradeira, o número não é primo, visto que ele possuí pelo menos um divisor. Caso nenhum resto resulte em 0, pode-se confirmar que o número é primo.
+![image](https://github.com/MisterBelleza/javaclass/assets/56280804/386c70ed-82ab-4c84-8db2-490e5a535d60)
+
+# Ex4 e Ex2 
+Nesses exercicios é necessario apresentar uma saída com diversos números, então formatei a saída unsando o comando "String.format()" para que o indicie do número e o prórpio número fiquem alinhados. Facilitando assim a leitura.
+Exemplos:
+
+1)Leitura com 2 digitos de Indicie e 3 digitos de Número:
+![image](https://github.com/MisterBelleza/javaclass/assets/56280804/69f82a77-4dda-4441-9b7e-2af3bf3d6735)
+
+2)Saida com 2 digitos de Indicie e 18 digitos de Número:
+![image](https://github.com/MisterBelleza/javaclass/assets/56280804/0a83eda6-62ef-4b87-9de6-787deefe1634)
+
+3)Recorte de uma saída com 5 digios de Indicie e 6 digitos de Número:
+![image](https://github.com/MisterBelleza/javaclass/assets/56280804/3422a227-2109-4a21-b974-07f825357404)
