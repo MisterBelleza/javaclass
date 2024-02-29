@@ -18,6 +18,7 @@
 
 # Ex1 e Ex2 
 Para calcular os números primos, utilizo o método da "Divisão por tentativa", onde, através de um laço iniciando em 2 e indo até a raiz quadrada do número a ser classificado, realizo comparações do resto da divisão com o número 0. Se a comparação for verdadeira, conclui-se que o número não é primo, uma vez que ele possui pelo menos um divisor. Caso nenhum resto resulte em 0, pode-se confirmar que o número é primo.
+
 ![image](https://github.com/MisterBelleza/javaclass/assets/56280804/386c70ed-82ab-4c84-8db2-490e5a535d60)
 
 # Ex4 e Ex2 
