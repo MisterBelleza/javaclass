@@ -17,11 +17,11 @@
 ## Notas relevantes
 
 # Ex1 e Ex2 
-Para calcular os primos uso o método da "Divisão por tentativa", onde a partir de um laço iniciando em 2 até a raiz quadrada do número a ser classificado, realizo comparações de resto da divisão com o número 0. Se a comparação for veradeira, o número não é primo, visto que ele possuí pelo menos um divisor. Caso nenhum resto resulte em 0, pode-se confirmar que o número é primo.
+Para calcular os números primos, utilizo o método da "Divisão por tentativa", onde, através de um laço iniciando em 2 e indo até a raiz quadrada do número a ser classificado, realizo comparações do resto da divisão com o número 0. Se a comparação for verdadeira, conclui-se que o número não é primo, uma vez que ele possui pelo menos um divisor. Caso nenhum resto resulte em 0, pode-se confirmar que o número é primo.
 ![image](https://github.com/MisterBelleza/javaclass/assets/56280804/386c70ed-82ab-4c84-8db2-490e5a535d60)
 
 # Ex4 e Ex2 
-Nesses exercicios é necessario apresentar uma saída com diversos números, então formatei a saída unsando o comando "String.format()" para que o indicie do número e o prórpio número fiquem alinhados. Facilitando assim a leitura.
+Nesses exercícios, é necessário apresentar uma saída com vários números. Para isso, formatei a saída usando o comando "String.format()" para que o índice do número e o próprio número fiquem alinhados, facilitando assim a leitura.
 Exemplos:
 
 1)Leitura com 2 digitos de Indicie e 3 digitos de Número:
